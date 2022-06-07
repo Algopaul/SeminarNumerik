@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    <!-- {%- include header.html -%} -->
+    <div class="wrapper">
+    <a class="site-title">AbsolventInnenseminar Numerische Mathematik</a>
+    </div>
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <p>
+        <b>Date</b>: Thursday, {{page.session}} <BR>
+        <b>Time</b>: 10:15 AM in MA 376. <BR>
+        <b>Place</b>: MA 376 @ TU Berlin (Straße des 17. Juni 136) <BR>
+        </p>
+        <table>
+        <tr>
+          <th>
+            <center>
+        <a href="https://algopaul.github.io/SeminarNumerik/" target="_blank">Visit Website</a>
+            </center>
+          </th>
+          <th>
+            <center>
+        <a href={{page.zoomlink}}>Join Via Zoom</a>
+            </center>
+          </th>
+        </tr>
+        </table>
+        {% assign myabstracts = site.abstracts | sort: 'tag' %}
+        {%- for abstract in myabstracts -%}
+        {% if abstract.mydate contains page.session %}
+        <hr> <BR>
+        <!-- <a name="{{ abstract.tag }}"></a><i>{{ abstract.mydate | markdownify }}</i> -->
+        <h3><b>{{abstract.name}}</b>: {{abstract.title}}</h3>
+        {{abstract.content | markdownify }}
+        {% endif %}
+        {%- endfor -%}
+      </div>
+    </main>
+
+  </body>
+
+</html>

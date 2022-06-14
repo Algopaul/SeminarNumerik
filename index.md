@@ -22,7 +22,7 @@ layout: home
 | May 19, 2022 | [Art Pelling](#4)  <BR> [Paul Schwerdtner](#5)         |
 | Jun 02, 2022 | [Bernhard Pöchtrager](#6) <BR> [Alessandro Borghi](#7) |
 | Jun 09, 2022 | [Hannes Gernandt](#8)                                  |
-| Jun 23, 2022 | Bernhard Höveler                                       |
+| Jun 23, 2022 | Bernhard Höveler <BR> [Juan Balzer](#10)               |
 | Jun 30, 2022 | Eshwar Ramasetti <BR> Christian Mehl                   |
 | Jul 07, 2022 | Riccardo Morandin <BR> Karim Cherifi                   |
 | Jul 14, 2022 | Dorothea Hinsen <BR> Jesper Schröder                   |

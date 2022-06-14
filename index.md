@@ -20,11 +20,11 @@ layout: home
 | April 27, 2022 | [Volker Mehrmann](#1)                                  |
 | May  5, 2022   | [Siobhan Correnty](#2)  <BR> [Tobias Breiten](#3)      |
 | May 19, 2022   | [Art Pelling](#4)  <BR> [Paul Schwerdtner](#5)         |
-| June 02, 2022  | [Bernhard Pöchtrager](#6) <BR> [Alessandro Borghi](#7) |
-| June 09, 2022  | [Hannes Gernandt](#8)                                  |
+| June 2, 2022  | [Bernhard Pöchtrager](#6) <BR> [Alessandro Borghi](#7) |
+| June 9, 2022  | [Hannes Gernandt](#8)                                  |
 | June 23, 2022  | Bernhard Höveler <BR> [Juan Balzer](#10)               |
 | June 30, 2022  | Eshwar Ramasetti <BR> Christian Mehl                   |
-| July 07, 2022  | Riccardo Morandin <BR> Karim Cherifi                   |
+| July 7, 2022  | Riccardo Morandin <BR> Karim Cherifi                   |
 | July 14, 2022  | Dorothea Hinsen <BR> Jesper Schröder                   |
 | July 21, 2022  | Philipp Schulze                                        |
 

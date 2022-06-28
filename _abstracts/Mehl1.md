@@ -1,6 +1,6 @@
 ---
 name: Christian Mehl
-title: The singular generalized eigenvalue problem: project it!
+title: "The singular generalized eigenvalue problem: project it!"
 mydate: June 30, 2022
 tag: 12
 ---

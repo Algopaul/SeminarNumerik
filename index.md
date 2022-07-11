@@ -24,7 +24,7 @@ layout: home
 | June 9, 2022   | [Hannes Gernandt](#8)                                  |
 | June 23, 2022  | [Bernhard Höveler](#9) <BR> [Juan Balzer](#10)         |
 | June 30, 2022  | [Eshwar Ramasetti](#11) <BR> [Christian Mehl](#12)     |
-| July 14, 2022  | Dorothea Hinsen <BR> Jesper Schröder                   |
+| July 14, 2022  | Dorothea Hinsen <BR> [Jesper Schröder](#14)            |
 | July 21, 2022  | Philipp Schulze <BR> Karim Cherifi                     |
 
 ## Talk Details

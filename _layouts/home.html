@@ -12,6 +12,6 @@ layout: default
   <hr>
   <a name="{{ abstract.tag }}"></a><i>{{ abstract.mydate | markdownify }}</i>
   <h3><b>{{abstract.name}}</b>: {{abstract.title}}</h3>
-  {{abstract.content | markdownify }}
+  <div style="text-align: justify;">{{ abstract.content | markdownify }}</div>
   {%- endfor -%}
 </div>

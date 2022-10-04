@@ -8,22 +8,22 @@ layout: home
 
 **Organization**: Hannes Dänschel ([Write E-Mail](mailto:daenschel@math.tu-berlin.de))
 
-| Date              | Speaker |
-|-------------------|---------|
-| October  20, 2022 |         |
-| October  27, 2022 |         |
-| November  3, 2022 |         |
-| November 10, 2022 |         |
-| November 17, 2022 |         |
-| December  1, 2022 |         |
-| December  8, 2022 |         |
-| December 15, 2022 |         |
-| January  12, 2023 |         |
-| January  19, 2023 |         |
-| January  26, 2023 |         |
-| February  2, 2023 |         |
-| February  9, 2023 |         |
-| February 16, 2023 |         |
+| Date              | Speaker                 |
+|-------------------|-------------------------|
+| October  20, 2022 | Volker Mehrmann         |
+| October  27, 2022 |                         |
+| November  3, 2022 |                         |
+| November 10, 2022 |                         |
+| November 17, 2022 |                         |
+| December  1, 2022 |                         |
+| December  8, 2022 |                         |
+| December 15, 2022 |                         |
+| January  12, 2023 |                         |
+| January  19, 2023 |                         |
+| January  26, 2023 |                         |
+| February  2, 2023 |                         |
+| February  9, 2023 |                         |
+| February 16, 2023 |                         |
 
 *** 
 ## Previous Semesters

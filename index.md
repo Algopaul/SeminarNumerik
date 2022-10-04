@@ -17,6 +17,7 @@ layout: home
 | November 17, 2022 |         |
 | November 24, 2022 |         |
 | December  1, 2022 |         |
+| December  8, 2022 |         |
 | December 15, 2022 |         |
 | January   5, 2023 |         |
 | January  12, 2023 |         |
@@ -29,3 +30,20 @@ layout: home
 *** 
 ## Previous Semesters
 [Summer Semester 2022](/SoSe2022)
+
+October  20, 2022
+October  27, 2022
+November  3, 2022
+November 10, 2022
+November 17, 2022
+November 24, 2022
+December  1, 2022
+December  8, 2022
+December 15, 2022
+January   5, 2023
+January  12, 2023
+January  19, 2023
+January  26, 2023
+February  2, 2023
+February  9, 2023
+February 16, 2023

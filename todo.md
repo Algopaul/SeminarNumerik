@@ -4,7 +4,7 @@ layout: default
 # Todo-List for Seminar
 
 ## Pre-Semester
-0. generate a new collection like `sose2023` by adding a new folder `_sose2023` to the root of this git-repository and adding the collection name `sose2023` in the `_config.yml` file.
+0. generate a new collection like `sose2023` (or `wise202223`) by adding a new folder `_sose2023` to the root of this git-repository and adding the collection name `sose2023` in the `_config.yml` file.
 1. Enter all possible seminar dates of the semester in a markdown table in `index.md`
 2. Ask your boss about
   1. dates that should be blocked (remove them from the table)

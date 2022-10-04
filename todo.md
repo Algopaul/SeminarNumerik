@@ -1,15 +1,31 @@
 ---
 layout: default
 ---
-# Todo-List for Seminar
+# Todo-List for Seminar Organizers
 
 ## Pre-Semester
 0. generate a new collection like `sose2023` (or `wise202223`) by adding a new folder `_sose2023` to the root of this git-repository and adding the collection name `sose2023` in the `_config.yml` file.
 1. Enter all possible seminar dates of the semester in a markdown table in `index.md`
 2. Ask your boss about
-  1. dates that should be blocked (remove them from the table)
-  2. Guests he intends to invite (and give them early access to the seminar dates) and for extra students that are expected to present this semester
-3. After adding the guests, ask the group (and additional students) to fill out some kind of a doodle-poll with their preferred talk-dates and generate the schedule, which is entered into the table on `index.md`
+    1. dates that should be blocked (remove them from the table)
+    2. Guests he intends to invite (and give them early access to the seminar dates) and for extra students that are expected to present this semester
+3. After adding the guests, ask the group (and additional students) to fill out some kind of a doodle-poll with their preferred talk-dates and generate the schedule, which is entered into the table on `index.md`. Here is a sample e-mail:
+
+```
+Dear Seminar-Listeners and Presenters,
+
+The SUMMER/WINTER semester has started already and our seminar begins in two weeks. Please indicate your availability for giving your talk in this Doodle-Poll [1]. The system is as follows: Each of you votes "YES" (green check-mark) at one (and only one) time-slot to indicate your favorite day. Additionally you mark all other days at which you can deliver your talk with "MAYBE" (yellow check-mark).
+
+The talk-slots are not distributed by a first-come-first-serve scheme but please take into account that we can only have two talks per meeting, i.e. try not to vote "YES" when a slot already has >=2 "YES" votes. Also consider that during the first session on XXX we will decide on incentives for giving your talk early.
+
+Please complete the Doodle-Poll by next Thursday (DATE).
+
+If you have further questions do not hesitate to reach out.
+
+Best Regards
+
+YOURNAME
+```
 
 ## During the semester (Weekly)
 

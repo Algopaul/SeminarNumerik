@@ -31,7 +31,7 @@
           </th>
         </tr>
         </table>
-        {% assign myabstracts = site.abstracts | sort: 'tag' %}
+        {% assign myabstracts = site.sose2022 %}
         {%- for abstract in myabstracts -%}
         {% if abstract.mydate contains page.session %}
         <hr> <BR>

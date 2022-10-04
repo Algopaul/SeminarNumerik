@@ -7,11 +7,4 @@ layout: default
   <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
   {{ content }}
-  {% assign myabstracts = site.abstracts | sort: 'tag' %}
-  {%- for abstract in myabstracts -%}
-  <hr>
-  <a name="{{ abstract.tag }}"></a><i>{{ abstract.mydate | markdownify }}</i>
-  <h3><b>{{abstract.name}}</b>: {{abstract.title}}</h3>
-  <div style="text-align: justify;">{{ abstract.content | markdownify }}</div>
-  {%- endfor -%}
 </div>

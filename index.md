@@ -8,6 +8,7 @@ layout: home
 
 **Organization**: Hannes Dänschel ([Write E-Mail](mailto:daenschel@math.tu-berlin.de))
 
+
 | Date              | Speaker                 |
 |-------------------|-------------------------|
 | October  20, 2022 | [Volker Mehrmann](#1)   |

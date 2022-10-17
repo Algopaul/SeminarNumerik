@@ -1,0 +1,1 @@
+thunderbird -compose "subject='test seminar mail',to='hannes.daenschel@gmail.com',format=1,body='<h1>Wurst</h1>'"

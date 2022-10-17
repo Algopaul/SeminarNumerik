@@ -1,0 +1,10 @@
+Configuration file: /home/pew/Git/seminar-talks/_config.yml
+Katex Configuration: Found KaTeX js at: /var/lib/gems/3.0.0/gems/jekyll-katex-1.0.0/lib/assets/js/katex.min.js
+Configuration file: /home/pew/Git/seminar-talks/_config.yml
+            Source: /home/pew/Git/seminar-talks
+       Destination: /home/pew/Git/seminar-talks/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+       Jekyll Feed: Generating feed for posts
+                    done in 0.068 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.

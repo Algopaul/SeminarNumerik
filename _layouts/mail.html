@@ -7,21 +7,22 @@
 
     <!-- {%- include header.html -%} -->
     <div class="wrapper">
-    <a class="site-title">Absolventenseminar Numerische Mathematik</a>
+    <a class="site-title">AbsolventInnenseminar Numerische Mathematik</a>
     </div>
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
         <p>
-        <b>Date</b>: Thursday, {{page.session}} <BR>
-        <b>Time</b>: 10:15 AM in MA 376. <BR>
+        <b>Date</b>: Thursday, {{page.session}}<BR>
+        <b>Time</b>: 10:15 AM (GMT+2)<BR>
         <b>Place</b>: MA 376 @ TU Berlin (Straße des 17. Juni 136) <BR>
+        <b>Host</b>: Hannes Dänschel (daenschel@math.tu-berlin.de)<BR>
         </p>
         <table>
         <tr>
           <th>
             <center>
-        <a href="https://algopaul.github.io/SeminarNumerik/" target="_blank">Visit Website</a>
+        <a href="https://algopaul.github.io/SeminarNumerik/" target="_blank">Visit seminar website</a>
             </center>
           </th>
           <th>
@@ -31,7 +32,19 @@
           </th>
         </tr>
         </table>
-        {% assign myabstracts = site.sose2022 %}
+
+        <BR>
+        <h2><b>Schedule</b></h2>
+        <ul>
+        {% assign myabstracts = site.wise202223 %}
+        {%- for abstract in myabstracts -%}
+        {% if abstract.mydate contains page.session %}
+        <li>Talk by {{abstract.name}}</li>
+        {% endif %}
+        {%- endfor -%}
+        </ul> 
+
+        {% assign myabstracts = site.wise202223 %}
         {%- for abstract in myabstracts -%}
         {% if abstract.mydate contains page.session %}
         <hr> <BR>

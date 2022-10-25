@@ -13,7 +13,7 @@ layout: home
 |-------------------|-------------------------|
 | October  20, 2022 | [Volker Mehrmann](#1)   |
 | October  27, 2022 |						  |
-| November  3, 2022 | [Elif Yalcin](#2)		|
+| November  3, 2022 | [Elif Yalcin](#2 "Wurstsalat")		|
 | November 10, 2022 |                         |
 | November 17, 2022 |                         |
 | December  1, 2022 |                         |

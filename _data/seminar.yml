@@ -1,0 +1,12 @@
+venue: Our seminar takes place on Thursdays at 10:15 AM (GMT+2) in MA 376.
+meetingURL: https://tu-berlin.zoom.us/j/67186543165?pwd=M2pKRXRCWHE2SDh3VExPcXlJeDhFdz09
+organization:
+  name: Hannes Dänschel
+  email: daenschel@math.tu-berlin.de
+lecturer:
+  - name: Prof. Dr. Tobias Breiten
+    email: breiten@math.tu-berlin.de
+  - name: Prof. Dr. Volker Mehrmann
+    email: mehrmann@math.tu-berlin.de
+  - name: Prof. Dr. Christian Mehl
+    email: mehl@math.tu-berlin.de

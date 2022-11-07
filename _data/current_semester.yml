@@ -1,0 +1,62 @@
+- date: 2022-10-20
+  speaker: Volker Mehrmann
+  title: Hypocoercivity and hypocontractivity of linear evolution equations
+  abstract: For the class of linear semi-dissipative Hamiltonian ordinary differential equations or differential-algebraic equations (continuous or discrete time), the concepts of stability, asymptotic stability, hypocoercivity and hypocontractivity are discussed and related to concepts from control theory.
+
+    In the finite dimensional case, on the basis of staircase forms, the short-time solution behavior is characterized and connected to the hypocoercivity index of these evolution equations.
+    
+    The results are applied to the analysis of  flow problems.
+
+    Joint work with Franz Achleitner and Anton Arnold.
+- date: 2022-11-03
+  speaker: Elif Yalcin
+  title: A numerical method with the posteriori error estimates for fractional integro-differential equations
+  abstract: This talk is concerned with obtaining a numerical solution of fractional integro-differential equations by constructing a matrix-collocation method involving the Hermite polynomial and matrix expansions of terms. The method is equipped with the collocation points and Caputo sense is used to describe the fractional derivatives. Having gathered all matrix compounds into a matrix equation, the fractional integro-differential equation is converted to a linear system of algebraic equations including the unknown Hermite coefficients. With the solving of the system, the desired numerical solution is immediately obtained. For sake of ensuring the efficiency and precision of the method, a test case is given and the error analysis is considered.
+- date: 2022-11-17
+  speaker: Bernhard Höveler
+  title: 
+  abstract:
+- date: 2022-11-17
+  speaker: Dorothea Hinsen
+  title:
+  abstract:
+- date: 2022-12-01
+  speaker:
+  title:
+  abstract:
+- date: 2022-12-08
+  speaker:
+  title:
+  abstract:
+- date: 2022-12-15
+  speaker:
+  title:
+  abstract:
+- date: 2023-01-12
+  speaker:
+  title:
+  abstract:
+- date: 2023-01-19
+  speaker:
+  title:
+  abstract:
+- date: 2023-01-26
+  speaker: Karim Cherifi
+  title:
+  abstract:
+- date: 2023-01-26
+  speaker: Jesper Schröder
+  title:
+  abstract:
+- date: 2023-02-02
+  speaker: Attila Karsai
+  title:
+  abstract:
+- date: 2023-02-09
+  speaker:
+  title:
+  abstract:
+- date: 2023-02-16
+  speaker: Alessandro Borghi
+  title:
+  abstract:

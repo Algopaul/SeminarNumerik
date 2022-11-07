@@ -1,0 +1,113 @@
+---
+layout: home
+---
+<!-- This is an html script equiped with statements of the liquid programming language. -->
+
+
+<!-- Assign variable names -->
+{% assign seminar = site.data.seminar %}
+{% assign dates = site.data.current_semester | sort: 'date' %}
+
+
+<!-- Displays seminar venue: date, time, place -->
+<h2>Venue</h2>
+<p>{{ seminar.venue }}</p>
+
+
+<!-- List profs/lecturers -->
+<h2>Lecturers</h2>
+<ul>
+  {% for lecturer in seminar.lecturer %}
+    <li> {{ lecturer.name }} (<a href="mailto:{{ lecturer.email }}">write email</a>) </li>
+  {% endfor %}
+</ul>
+
+
+<!-- Display seminar organizer's details -->
+<h2>Organization</h2>
+<p>{{ seminar.organization.name }} (<a href="mailto:{{ seminar.organization.email }}">write email</a>)</p>
+
+
+<!-- Display table that lists talks sorted by date -->
+<h2>Talks</h2>
+<table>
+  <tr>
+    <th>Date</th>
+    <th>Speaker(s)</th>
+  </tr>
+
+  <!-- Iterate over dates -->
+  {% assign prev_date = nil %}
+  {% for date in dates %}
+
+    <!-- Check if is new date. -->
+    {% if prev_date != date.date %}
+      {% assign new_date = true %}
+    {% else %}
+      {% assign new_date = false %}
+    {% endif %}
+
+    
+    {% if new_date %}
+      
+      <!-- If not the first date close previous row and column. -->
+      {% if date != dates[1] %}
+        </td></tr>
+      {% endif %}
+
+      <!-- Create new row and write date column. -->
+      <tr><td>{{ date.date | date: "%B %d, %Y" }}</td>
+
+    {% endif %}
+      
+      
+    <!-- Write speaker for current date. -->
+    {% if new_date %}
+
+      {% if date.speaker %}
+        <td><a href="#{{ date.speaker }}" title="{{ date.title }}">{{ date.speaker }}</a>
+      {% else %}
+        <td><i>To be announced ...</i>
+      {% endif %}
+
+    {% else %}
+
+       • <a href="#{{ date.speaker }}" title="{{ date.title }}">{{ date.speaker }}</a>
+
+    {% endif %}
+
+    <!-- Make previous date the current date. -->
+    {% assign prev_date = date.date %}
+
+  {% endfor %}
+  
+  </td></tr>
+
+</table>
+
+
+<!-- Displays a list of all talk's speaker/title/abstract information -->
+<h2>Abstracts</h2>
+{% assign prev_date = nil %}
+{% for new_date in dates %}
+  {% if new_date.speaker %}
+    {% if prev_date != new_date.date %}
+    <!-- This if-statement ensure that multiple speakers per date are correctly printed-->
+      <h3><b>{{ new_date.date | date: "%B %d, %Y" }}</b></h3>
+    {% endif %}
+    <h4 id="{{ new_date.speaker }}"><b>{{ new_date.speaker }}:</b>
+      {% if new_date.title %}
+        <i>{{ new_date.title }}</i>
+      {% else %}
+        <i>Title to be announced ...</i>
+      {% endif %}
+    </h4>
+    {% if new_date.abstract %}
+      <div style="text-align: justify;">
+        {{ new_date.abstract | newline_to_br | replace: "<br />", "<br /><br />" }}
+      </div>
+    {% endif %}
+    <br>
+  {% endif %}
+  {% assign prev_date = new_date.date %}
+{% endfor %}

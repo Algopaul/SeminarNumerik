@@ -1,6 +1,0 @@
-{%- for abstract in include.myabstracts -%}
-<hr>
-<a name="{{ abstract.tag }}"></a><i>{{ abstract.mydate | markdownify | remove: "<p>" | remove: "</p>" }}</i>
-<h3><b>{{abstract.name}}</b>: {{abstract.title}}</h3>
-<div style="text-align: justify;">{{ abstract.content | markdownify }}</div>
-{%- endfor -%}

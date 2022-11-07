@@ -1,0 +1,10 @@
+{% assign speakers = include.talkList | reverse %}
+{% for talk in speakers %}
+	{% if talk.speaker %}
+	<hr>
+	<a name=""></a><i>{{ talk.date }}</i>
+	<h3><b>{{talk.speaker}}</b>: {{talk.title}}</h3>
+	<div style="text-align: justify;">{{ talk.abstract }}</div>
+	<br>
+	{% endif %}
+{% endfor %}

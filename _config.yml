@@ -18,13 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Absolventenseminar Numerische Mathematik
+title: AbsolventInnenseminar Numerische Mathematik
 email: schwerdt@math.tu-berlin.de
 description: >- # this means to ignore newlines until "baseurl:"
-  This website is for organizing the seminar Absolventenseminar Numerische Mathematik at Institut für Mathematik (Institute of Mathematics) at Technische Universität Berlin (TU Berlin).
+  This website is for organizing the seminar AbsolventInnenseminar Numerische Mathematik at Institut für Mathematik (Institute of Mathematics) at Technische Universität Berlin (TU Berlin).
 # baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  Algopaul
+github_username: Algopaul
 markdown: kramdown
 kramdown:
   math_engine: katex
@@ -35,9 +35,6 @@ plugins:
   - jekyll-feed
   - jekyll-katex
 
-collections:
-  sose2022:
-  wise202223:
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

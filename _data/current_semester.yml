@@ -20,8 +20,8 @@
     In the standard case we have an equivalence between being a pH system, being passive or fulfilling the Kalman-Yakubovich-Popov (KYP) inequality. Moreover, we can use the KYP inequality to construct a pH system explicitly. The time-delayed system  can be reinterpreted as an infinite dimensional system. For which there is also a passivity equivalent KYP inequality . In this talk, we use the infinite dimensional KYP inequality to formulate a pH system for time-delayed systems in a similar way to the standard case. Furthermore, we present conditions and properties which have to hold for these systems.
 - date: 2022-11-17
   speaker: Bernhard Höveler
-  title: 
-  abstract:
+  title: Spectral approximation of Lyapunov operator equations with applications in high dimensional non-linear feedback control.
+  abstract: Optimal feedback control for nonlinear systems is a powerful tool for many applications in engineering, physics and many other fields. The drawback of such approach is that the numerical treatment of the resulting nonlinear first order partial differential equation - the Hamiltion-Jacobi-Bellman equation (HJB) - can be difficult. One major reason for that being the high dimensionality of the state space for almost all problems of interest. In this talk it will be shown, that the HJB is linked to the operator Lyapunov equation. For this connection we'll need to define weighted Lp-spaces and take a closer look at semigroups and their properties to pave the way for a useful numerical scheme. Which will be - together with some numerical experiments - shortly introduced at the end.
 - date: 2022-12-01
   speaker:
   title:

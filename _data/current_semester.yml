@@ -13,12 +13,14 @@
   title: A numerical method with the posteriori error estimates for fractional integro-differential equations
   abstract: This talk is concerned with obtaining a numerical solution of fractional integro-differential equations by constructing a matrix-collocation method involving the Hermite polynomial and matrix expansions of terms. The method is equipped with the collocation points and Caputo sense is used to describe the fractional derivatives. Having gathered all matrix compounds into a matrix equation, the fractional integro-differential equation is converted to a linear system of algebraic equations including the unknown Hermite coefficients. With the solving of the system, the desired numerical solution is immediately obtained. For sake of ensuring the efficiency and precision of the method, a test case is given and the error analysis is considered.
 - date: 2022-11-17
+  speaker: Dorothea Hinsen
+  title: Port-Hamiltonian Systems with Time-Delays
+  abstract: An appealing approach to model, simulate and control complex multiphysics systems is using port-Hamiltonian (pH) systems. These systems have several advantages for example they are passive, inherently stable, robust in numerical integration and they can be easily linked together yielding a new pH system.
+    In the last few decades, pH models were developed for standard systems, descriptor systems and infinite dimensional systems. However, a pH formulation for systems with time delay is not yet available.
+    In the standard case we have an equivalence between being a pH system, being passive or fulfilling the Kalman-Yakubovich-Popov (KYP) inequality. Moreover, we can use the KYP inequality to construct a pH system explicitly. The time-delayed system  can be reinterpreted as an infinite dimensional system. For which there is also a passivity equivalent KYP inequality . In this talk, we use the infinite dimensional KYP inequality to formulate a pH system for time-delayed systems in a similar way to the standard case. Furthermore, we present conditions and properties which have to hold for these systems.
+- date: 2022-11-17
   speaker: Bernhard Höveler
   title: 
-  abstract:
-- date: 2022-11-17
-  speaker: Dorothea Hinsen
-  title:
   abstract:
 - date: 2022-12-01
   speaker:

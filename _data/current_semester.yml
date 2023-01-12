@@ -55,10 +55,6 @@ If you are interested in the details of this work, please find the link to my th
   abstract: Traditional model order reduction (MOR) is used to approximate the dynamic behavior of large-scale and complex models with a low-order surrogate model. Structure-preserving MOR also ensures that this low-order surrogate model has the same physical structure as the given complex model, which is useful e.g. when system networks are considered. We present an optimization-based algorithm that performs structure-preserving MOR of large-scale models with a port-Hamiltonian structure. For this, we describe a parameterization of low-order port-Hamiltonian models and explain the optimization problem that we set up to tune the parameters in order to approximate a given model. We use an objective function that only requires evaluations of the transfer function of the given model at adaptively chosen sample points.
     
     After describing the original method, we discuss an extension to systems with an additional parameter dependency. Finally, we explain how our method can be adapted to perform H-infinity controller synthesis for port-Hamiltonian systems.
-- date: 2023-01-19
-  speaker:
-  title:
-  abstract:
 - date: 2023-01-26
   speaker: Karim Cherifi
   title:
@@ -71,11 +67,23 @@ If you are interested in the details of this work, please find the link to my th
   speaker: Attila Karsai
   title:
   abstract:
+- date: 2023-02-02
+  speaker: Marie-Sophie Bolz
+  title: 
+  abstract:
 - date: 2023-02-09
-  speaker:
+  speaker: Andrea Brugnoli
+  title:
+  abstract:
+- date: 2023-02-09
+  speaker: Thierry Tchoutombatchou
   title:
   abstract:
 - date: 2023-02-16
   speaker: Alessandro Borghi
+  title:
+  abstract:
+- date: 2023-02-16
+  speaker: Laurent Pfeiffer
   title:
   abstract:

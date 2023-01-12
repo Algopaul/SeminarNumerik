@@ -55,6 +55,12 @@ If you are interested in the details of this work, please find the link to my th
   abstract: Traditional model order reduction (MOR) is used to approximate the dynamic behavior of large-scale and complex models with a low-order surrogate model. Structure-preserving MOR also ensures that this low-order surrogate model has the same physical structure as the given complex model, which is useful e.g. when system networks are considered. We present an optimization-based algorithm that performs structure-preserving MOR of large-scale models with a port-Hamiltonian structure. For this, we describe a parameterization of low-order port-Hamiltonian models and explain the optimization problem that we set up to tune the parameters in order to approximate a given model. We use an objective function that only requires evaluations of the transfer function of the given model at adaptively chosen sample points.
     
     After describing the original method, we discuss an extension to systems with an additional parameter dependency. Finally, we explain how our method can be adapted to perform H-infinity controller synthesis for port-Hamiltonian systems.
+- date: 2023-01-19
+  speaker: Andrea Brugnoli
+  title: Continuous and hybrid finite element discretization of port-Hamiltonian systems
+  abstract: Numerical methods to discretize port-Hamiltonian systems need to retain their geometric structure in order to be used for complex multiphysical applications.
+    
+    In this talk, a continuous Galerkin finite element exterior calculus formulation that is able to mimetically represent coupled conservation laws is presented. The approach relies on a dual-field representation of the physical system that eliminates the need for a discrete Hodge star operator. The power balance characterizing the Stokes-Dirac structure is retrieved at the discrete level via symplectic Runge-Kutta integrators based on Gauss-Legendre collocation points. The proposed formulation is directly amenable to hybridization. The hybrid formulation is equivalent to the continuous Galerkin formulation and can be efficiently solved using a static condensation procedure in discrete time. The size reduction achieved thanks to the hybridization is considerable as only global traces of the conforming field need to be computed. Numerical experiments validate the convergence and conservation properties of the method. Furthermore, they show the equivalence of the continuous and hybrid formulation and the computational gain achieved by the latter.
 - date: 2023-01-26
   speaker: Karim Cherifi
   title:
@@ -70,10 +76,6 @@ If you are interested in the details of this work, please find the link to my th
 - date: 2023-02-02
   speaker: Marie-Sophie Bolz
   title: 
-  abstract:
-- date: 2023-02-09
-  speaker: Andrea Brugnoli
-  title:
   abstract:
 - date: 2023-02-09
   speaker: Thierry Tchoutombatchou

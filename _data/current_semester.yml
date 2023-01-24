@@ -63,26 +63,23 @@ If you are interested in the details of this work, please find the link to my th
     In this talk, a continuous Galerkin finite element exterior calculus formulation that is able to mimetically represent coupled conservation laws is presented. The approach relies on a dual-field representation of the physical system that eliminates the need for a discrete Hodge star operator. The power balance characterizing the Stokes-Dirac structure is retrieved at the discrete level via symplectic Runge-Kutta integrators based on Gauss-Legendre collocation points. The proposed formulation is directly amenable to hybridization. The hybrid formulation is equivalent to the continuous Galerkin formulation and can be efficiently solved using a static condensation procedure in discrete time. The size reduction achieved thanks to the hybridization is considerable as only global traces of the conforming field need to be computed. Numerical experiments validate the convergence and conservation properties of the method. Furthermore, they show the equivalence of the continuous and hybrid formulation and the computational gain achieved by the latter.
 - date: 2023-01-26
   speaker: Karim Cherifi
-  title:
-  abstract:
+  title: Discrete time causal port Hamiltonian systems
+  abstract: Most of the literature on linear port Hamiltonian systems focuses on continuous time impedance passive systems. In this talk, the focus is on discrete time causal scattering passive systems. We derive a port Hamiltonian representation for scattering passive dynamical systems and study the relation to bounded real transfer functions. The relation to passivity characterized by the Kalman-Yakubovich-Popov (KYP) inequality is also discussed. In addition, the relation between impedance and scattering passive systems is discussed. Finally, we show how the time discretization of a continuous passive system falls into the class of discrete time systems introduced.
 - date: 2023-01-26
   speaker: Jesper Schröder
-  title:
-  abstract:
-- date: 2023-02-02
-  speaker: Attila Karsai
-  title:
-  abstract:
+  title: An approach to non-linear observer design via optimal control theory -- the Mortensen Observer
+  abstract: Many real processes can be described by mathematical models. Since these representations are based on idealized assumptions and simplifications, it is nearly impossible to describe any system perfectly. Another problem arises from the fact that often the state of the actual system is not available, and instead only an output can be obtained. Examples of such an output are measurements by devices like microphones and heat sensors, which are subject to additional noise. One approach to recovering an approximation of the state of the system is to design a dynamical observer. While the Kalman filter offers an efficient solution to this problem for linear systems, the design of non-linear observers is still challenging.
+  This talk gives an introduction to the minimum energy estimator, also called the Mortensen observer, which was proposed among others by R. E. Mortensen in 1968. The method approaches the problem via optimal control theory. We discuss feasible assumptions to ensure the well posedness of the resulting observer equation, which is achieved by a sensitivity analysis of the corresponding value function. Here, the associated Hamilton-Jacobi-Bellman equation plays an integral part. Numerical experiments illustrate the theoretical result. 
 - date: 2023-02-02
   speaker: Marie-Sophie Bolz
   title: 
   abstract:
 - date: 2023-02-09
-  speaker: Thierry Tchoutombatchou
+  speaker: Attila Karsai
   title:
   abstract:
-- date: 2023-02-16
-  speaker: Laurent Pfeiffer
+- date: 2023-02-09
+  speaker: Thierry Tchoutombatchou
   title:
   abstract:
 - date: 2023-02-16

@@ -73,8 +73,8 @@ If you are interested in the details of this work, please find the link to my th
     This talk gives an introduction to the minimum energy estimator, also called the Mortensen observer, which was proposed among others by R. E. Mortensen in 1968. The method approaches the problem via optimal control theory. We discuss feasible assumptions to ensure the well posedness of the resulting observer equation, which is achieved by a sensitivity analysis of the corresponding value function. Here, the associated Hamilton-Jacobi-Bellman equation plays an integral part. Numerical experiments illustrate the theoretical result. 
 - date: 2023-02-02
   speaker: Marie-Sophie Bolz
-  title: 
-  abstract:
+  title: H-skewadjoint square roots of H-selfadjoint matrices
+  abstract: This talk is concerned with obtaining necessary and sufficient conditions for the existence of an H-skewadjoint square root of a given H-selfadjoint matrix. The examined case is the case where H is a (skew-)symmetric matrix and consequently the studied indefinite inner product is a (skew-)symmetric bilinearform.
 - date: 2023-02-09
   speaker: Attila Karsai
   title:

@@ -81,10 +81,6 @@ If you are interested in the details of this work, please find the link to my th
   abstract: "Optimal control problems occur in a variety of real-world applications. In many cases, it can be observed that the optimal control makes a detour to be able to control the system with lower costs. This phenomenon is called *turnpike phenomenon*. The name is reminiscent of an observation from everyday life: when driving a long distance, it is almost always quicker to take a detour via a turnpike than to drive slowly on the country road all the time.
 
   In the context of port-Hamiltonian systems, which stem from an energy-based modeling perspective, minimizing the supplied energy is a natural optimization objective. In this talk, turnpike phenomena of nonlinear port-Hamiltonian descriptor systems under minimal energy supply are studied. Under assumptions on the smoothness of the system nonlinearities, it is shown that the optimal control problem has a manifold dissipativity property. Using additional controllability assumptions, we observe that the optimal control problem exhibits a manifold turnpike property."
-- date: 2023-02-09
-  speaker: Thierry Tchoutombatchou
-  title:
-  abstract:
 - date: 2023-02-16
   speaker: Alessandro Borghi
   title:
